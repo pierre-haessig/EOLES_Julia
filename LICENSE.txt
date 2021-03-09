@@ -1,0 +1,11 @@
+EOLES_Julia (c) by Pierre Haessig
+
+EOLES_Julia is licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+See <https://creativecommons.org/licenses/by-nc-sa/4.0/>.
+
+This work, EOLES_Julia, is a derivative work of the original EOLES_elecRES model
+(<https://github.com/BehrangShirizadeh/EOLES_elecRES>)
+by Behrang Shirizadeh, Quentin Perrier and Philippe Quirion,
+used under CC BY-NC-SA 4.0.
