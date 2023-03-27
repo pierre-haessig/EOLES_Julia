@@ -12,9 +12,17 @@ e.g. by running on the same input files.
 ## Repository content
 
 - [EOLES_elecRES_Julia.ipynb](EOLES_elecRES_Julia.ipynb): Jupyter notebook. Port of the [EOLES_elecRES.gms](https://github.com/BehrangShirizadeh/EOLES_elecRES/blob/master/model/EOLES_elecRES.gms) GAMS model.
-  - status: OK (produces similar results, but needs some more checks)
-- [inputs](inputs): copy of the input folder of `EOLES_elecRES`
-- draft graphical representation of the equations (made with [draw.io/diagrams.net](https://www.diagrams.net/))
+  - status: OK (produces very similar results, but needs some more checks with respect to the gas storage size)
+  - [inputs](inputs): copy of the input folder of `EOLES_elecRES`
+- [EOLES_elecRES_simplified.ipynb](EOLES_elecRES_simplified.ipynb): **simplified** model
+  - no reserve (FRR)
+  - less sources: no more biogas generation, no hydro (lake, river and pumped hydro)
+  - generation is PV and wind (onshore and offshore)
+  - storage is battery and power to gas (methanation)
+  - [inputs_simplified](inputs_simplified) same inputs as in the full model, but with the removed technologies removed from the data files
+  - [outputs_simplified](outputs_simplified): save results from running the simplified model (sizing and time series)
+
+- Graphical representation of the equations (made with [draw.io/diagrams.net](https://www.diagrams.net/))
 
 ![graphical representation of the equations](EOLES_elecRES.png)
 
